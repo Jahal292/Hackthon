@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    
+   }
+
+   body{
+    margin: 0;
+    background-color: #16151824;
+   }
+
+     header{
+    background-color:black;
+        padding: 20px;
+        
+        
+    }
+    .header{
+        text-align: center;
+         color: #fff;;
+        font-size: 2.3em;
+        font-style: italic;
+        
+    }
+
+    nav{
+        background-color: gray;
+        width: 100%;
+        display: block;
+        padding: 5xpx;
+        text-align:justify;
+        font-size: 2.0em;
+        font-style: oblique;
+        
+        
+    }
+    
+    #galleries{
+       box-sizing: border-box;
+         display: grid;
+         padding: 20px;
+        grid-template-columns:repeat(3, 500px);
+        grid-template-areas: repeat(12, 400px);
+        column-gap:5px;
+        row-gap: 5px;
+        background-image: url(./sushiwebsite/drink.jpg);
+        background-size: 100px;
+        background-repeat: repeat;
+        overflow: auto;
+    
+        
+        
+     }
+      
+     
+    .photo{
+        border: 1px solid skyblue;
+
+        }
+
+    .photo, img{
+        width: 400px;;
+        height: 400px;;
+    }
+
+
+
+
+    footer{
+        margin:0px;
+        padding: 20px;
+        text-align: center;
+        font-style: italic;
+        font-size: 20px;
+        background-color:black;
+        color: #fff;
+    } 
